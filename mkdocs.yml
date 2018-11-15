@@ -1,0 +1,30 @@
+site_name: 'Scorocode V2'
+pages:
+    - 'Личный кабинет':
+       - 'Добро пожаловать': 'index.md'
+       - 'Начало работы': 'getstart/first.md' 
+       - 'Настройка профиля': 'getstart/profile.md'
+       - 'Создание приложения': 'getstart/createapp.md'  
+       - 'Настройка приложения': 'getstart/setapp.md'  
+       - 'Биллинг': 'getstart/billing.md'  
+    - 'CLI':
+       - 'Как установить cli': 'cli/howto.md'
+       - 'Команды cli': 'cli/cli.md'
+    - 'HTTP API':
+       - 'Общие слова про API': 'api/api.md'
+    - 'Примеры приложений':
+        - 'Здесь будут примеры приложений': 'app/example.md'
+theme:
+  name: 'material'
+extra:
+  logo: 'logo.png'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/scorocode'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/scorocode'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/prof-it-group'
